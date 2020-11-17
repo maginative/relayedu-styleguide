@@ -1,7 +1,9 @@
 This style guide contains styles for fonts, text styles, modals, buttons and forms for relay.edu.<br>
 
-Missing Fonts: 
-* 
+Fonts: 
+* Chronicle Display
+* Proxima Nova
+
 These fonts will need to be replaced with a close replicate
 
 ## Local Installation
