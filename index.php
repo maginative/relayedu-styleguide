@@ -152,39 +152,39 @@
           <!-- Headings -->
           <u><h3 style="color:black;">Headings</h3></u>
           <div>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
+              <h1 class="color-crimson">Heading 1</h1>
+              <h2 class="color-pacific">Heading 2</h2>
+              <h3 class="color-pacific">Heading 3</h3>
+              <h4 class="color-pacific">Heading 4</h4>
+              <h5 class="color-crimson">Heading 5</h5>
+              <h6 class="color-pacific">Heading 6</h6>
           </div>
           <hr>
           <!-- Headings -->
-          <u><h3 style="color:black;">Headings - With Underline</h3></u>
+          <u><h3 style="color:black;">Headings - With Underline:</h3></u>
           <div style="background-image:url('https://picsum.photos/200/300/?blur'); background-repeat: no-repeat; background-size: 100%; padding: 10px 0px;">
               <h1 class="color-white underline" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;">Heading 1</h1>
           </div>
           <hr>
           <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Callout Block</h3></u>
+          <u><h3 style="color:black;">Headings - Callout Block:</h3></u>
           <div>
-              <h2 style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;">Heading 2</h2>
+              <h2 class="color-pacific" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;">Heading 2</h2>
           </div>
           <hr>
           <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Basic block in two columns</h3></u>
+          <u><h3 style="color:black;">Headings - Basic block in two columns:</h3></u>
           <div>
-              <h2 style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 60px; line-height: 68px;">Heading 2</h2>
+              <h2 class="color-pacific" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 60px; line-height: 68px;">Heading 2</h2>
           </div>
           <hr>
           <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Card title Slider</h3></u>
+          <u><h3 style="color:black;">Headings - Card title Slider:</h3></u>
           <div class="bg-pacific">
               <h2 class="color-white"style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 60px; line-height: 68px;">Heading 2</h2>
           </div>
           <hr>
-          <u><h3 style="color:black;">Headings - Three Columns Cards</h3></u>
+          <u><h3 style="color:black;">Headings - Three Columns Cards:</h3></u>
           <div class="bg-sea-foam">
               <h2 class="color-prussian" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;;">Heading 2</h2>
           </div>

@@ -71,57 +71,42 @@ h1 {
   font-style: normal;
   font-weight: 300;
   font-size: 90px;
-  line-height: 96px;
-  color: #B30838; }
-
-h1.color-white {
-  color: #ffffff; }
+  line-height: 96px; }
 
 h2 {
   font-family: Chronicle Display;
   font-style: normal;
   font-weight: 300;
   font-size: 60px;
-  line-height: 68px;
-  color: #2C49A4; }
-
-h2.color-white {
-  color: #ffffff; }
-
-h2.color-prussian {
-  color: #1D3557; }
+  line-height: 68px; }
 
 h3 {
   font-family: Chronicle Display;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
-  line-height: 55px;
-  color: #2C49A4; }
+  line-height: 55px; }
 
 h4 {
   font-family: Chronicle Display;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
-  line-height: 45px;
-  color: #2C49A4; }
+  line-height: 45px; }
 
 h5 {
   font-family: Chronicle Display;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
-  line-height: 45px;
-  color: #B30838; }
+  line-height: 45px; }
 
 h6 {
   font-family: Chronicle Display;
   font-style: normal;
   font-weight: 325;
   font-size: 30px;
-  line-height: 45px;
-  color: #2C49A4; }
+  line-height: 45px; }
 
 .big-size {
   font-size: 90px;
@@ -1028,3 +1013,33 @@ footer .row {
 
 .bg-prussian {
   background-color: #1D3557; }
+
+.color-black {
+  color: #000000; }
+
+.color-fog {
+  color: #F7F7F7; }
+
+.color-crimson {
+  color: #B30838; }
+
+.color-white {
+  color: #ffffff; }
+
+.color-imperial-red {
+  color: #E63946; }
+
+.color-orange {
+  color: #FFAC5F; }
+
+.color-sea-foam {
+  color: #A8DADC; }
+
+.color-sky-blue {
+  color: #79B9ED; }
+
+.color-pacific {
+  color: #2C49A4; }
+
+.color-prussian {
+  color: #1D3557; }

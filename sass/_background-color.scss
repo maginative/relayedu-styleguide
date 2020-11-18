@@ -30,3 +30,36 @@
     background-color: $prussian;
   }
 }
+
+.color {
+  &-black {
+    color: $black;
+  }
+  &-fog {
+    color: $fog;
+  }
+  &-crimson {
+    color: $crimson;
+  }
+  &-white {
+    color: $white;
+  }
+  &-imperial-red {
+    color: $imperial-red;
+  }
+  &-orange {
+    color: $orange;
+  }
+  &-sea-foam {
+    color: $sea-foam;
+  }
+  &-sky-blue {
+    color: $sky-blue;
+  }
+  &-pacific {
+    color: $pacific;
+  }
+  &-prussian {
+    color: $prussian;
+  }
+}
