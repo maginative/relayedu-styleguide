@@ -1,0 +1,32 @@
+.bg {
+  &-black {
+    background-color: $black;
+  }
+  &-fog {
+    background-color: $fog;
+  }
+  &-crimson {
+    background-color: $crimson;
+  }
+  &-white {
+    background-color: $white;
+  }
+  &-imperial-red {
+    background-color: $imperial-red;
+  }
+  &-orange {
+    background-color: $orange;
+  }
+  &-sea-foam {
+    background-color: $sea-foam;
+  }
+  &-sky-blue {
+    background-color: $sky-blue;
+  }
+  &-pacific {
+    background-color: $pacific;
+  }
+  &-prussian {
+    background-color: $prussian;
+  }
+}

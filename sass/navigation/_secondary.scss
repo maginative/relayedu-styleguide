@@ -5,13 +5,13 @@
   z-index: 100;
 }
 .nav-secondary {
-  background-color: $orange;
+  //background-color: $orange;
   width: 100%;
   align-items: center;
 }
 .nav-secondary__banner {
-  background-image: url('');
-  background-color: $blue--persian;
+  //background-image: url('');
+  //background-color: $blue--persian;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -87,7 +87,7 @@
 
 
   a {
-    color: $blue--persian;
+   // color: $blue--persian;
     font-size: 14px;
   }
   .top-link {

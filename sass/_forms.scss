@@ -1,12 +1,12 @@
 .req {
-  color: $red;
+  //color: $red;
 }
 .error-message {
-  color: $red;
+  //color: $red;
 }
 input[type="text"] {
   color: #333;
-  border: 1px solid $grey--light;
+  //border: 1px solid $grey--light;
   border-radius: 3px;
   padding: 12px 8px;
 }
@@ -17,11 +17,11 @@ textarea {
   resize: none;
 }
 .form-group {
-  color: $grey--dark;
+  //color: $grey--dark;
   border: 0;
 }
 .form-row{
-  border-bottom: 1px solid $grey--dark;
+  //border-bottom: 1px solid $grey--dark;
   margin-bottom: 10px;
 }
 .form-group input[type="text"]{
@@ -36,7 +36,7 @@ textarea {
 }
 
 .form-group textarea {
-  color: $grey--light;
+ // color: $grey--light;
   border: 0;
   border-radius: 0;
   width: 100%;
@@ -52,14 +52,14 @@ textarea {
 }
 .ag-city {
   width: 50%;
-  border-right: 1px solid $grey--light;
+  //border-right: 1px solid $grey--light;
 }
 .address-group div {
   display: table-cell;
 }
 .ag-state {
   width: 25%;
-  border-right: 1px solid $grey--light;
+  //border-right: 1px solid $grey--light;
   padding: 5px;
 }
 .form-group label {
@@ -74,7 +74,7 @@ textarea {
 .form-group select {
   box-sizing: border-box;
   padding: 5px 0;
-  color: $grey--dark;
+  //color: $grey--dark;
   border: 0;
   border-bottom-color: currentcolor;
   border-bottom-style: none;
@@ -96,7 +96,7 @@ select {
   position: relative;
   max-width: 240px;
   width: 100%;
-  border: 1px solid $grey--light;
+  //border: 1px solid $grey--light;
   border-radius: 3px;
   margin-bottom: 5px;
   overflow: hidden;
@@ -117,7 +117,7 @@ select {
 
 .button-select select {
   position: relative;
-  background-color: $blue--persian;
+  //background-color: $blue--persian;
   height: 36px;
   min-width: 154px;
   line-height: 36px;

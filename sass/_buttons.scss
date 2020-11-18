@@ -1,5 +1,5 @@
 .btn--red{
-  background: $red;
+  //background: $red;
   color: $white !important;
   font-weight: 400;
   display: inline-block;
@@ -46,7 +46,7 @@
   }
 }
 .btn--blue {
-  background-color: $blue--persian;
+  //background-color: $blue--persian;
   color: $white;
   font-weight: 600;
   font-size: 15px;
@@ -67,12 +67,12 @@
 .btn--blue__outline {
   background-color: $white;
   border-radius: 3px;
-  color: $blue--persian;
+  //color: $blue--persian;
   font-size: 14px;
   height: 45px;
   max-width: 225px;
   width: 140px;
-  border: 1px solid $blue--persian;
+  //border: 1px solid $blue--persian;
   &:hover {
     background-color: #e6e6e6;
   }
@@ -85,7 +85,7 @@
 }
 .hero__button--persian {
   color: $white !important;
-  background-color: $blue--persian !important;
+  //background-color: $blue--persian !important;
 }
 .hero__button--orange {
   color: $black !important;
