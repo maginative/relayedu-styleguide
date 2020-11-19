@@ -19,6 +19,13 @@
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+
 </head>
 <body>
   <a href="#main" class="sg-visually-hidden sg-visually-hidden-focusable">Skip to main content</a>
@@ -149,45 +156,9 @@
             <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
           </div><!--/.sg-font-stacks-->
         </div><!--/.sg-info-->
-          <!-- Headings -->
-          <u><h3 style="color:black;">Headings</h3></u>
-          <div>
-              <h1 class="color-crimson">Heading 1</h1>
-              <h2 class="color-pacific">Heading 2</h2>
-              <h3 class="color-pacific">Heading 3</h3>
-              <h4 class="color-pacific">Heading 4</h4>
-              <h5 class="color-crimson">Heading 5</h5>
-              <h6 class="color-pacific">Heading 6</h6>
-          </div>
-          <hr>
-          <!-- Headings -->
-          <u><h3 style="color:black;">Headings - With Underline:</h3></u>
-          <div style="background-image:url('https://picsum.photos/200/300/?blur'); background-repeat: no-repeat; background-size: 100%; padding: 10px 0px;">
-              <h1 class="color-white underline" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;">Heading 1</h1>
-          </div>
-          <hr>
-          <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Callout Block:</h3></u>
-          <div>
-              <h2 class="color-pacific" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;">Heading 2</h2>
-          </div>
-          <hr>
-          <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Basic block in two columns:</h3></u>
-          <div>
-              <h2 class="color-pacific" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 60px; line-height: 68px;">Heading 2</h2>
-          </div>
-          <hr>
-          <!-- Headings -->
-          <u><h3 style="color:black;">Headings - Card title Slider:</h3></u>
-          <div class="bg-pacific">
-              <h2 class="color-white"style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 60px; line-height: 68px;">Heading 2</h2>
-          </div>
-          <hr>
-          <u><h3 style="color:black;">Headings - Three Columns Cards:</h3></u>
-          <div class="bg-sea-foam">
-              <h2 class="color-prussian" style="font-family: chronicle-display; font-style: normal; font-weight: 300; font-size: 90px; line-height: 96px;;">Heading 2</h2>
-          </div>
+
+
+
           <hr>
 
 
