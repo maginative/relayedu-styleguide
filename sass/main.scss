@@ -1,4 +1,7 @@
 @import 'variables';
+@import "reset";
+@import "breakpoints";
+@import "space";
 @import 'base';
 @import 'headings';
 @import 'alerts_errors';
@@ -8,5 +11,6 @@
 @import 'lists';
 @import 'navigation/primary';
 @import 'navigation/secondary';
-@import '_footer.scss';
-@import 'block-types/hero';
+@import 'footer.scss';
+@import 'colors.scss';
+@import "block-types/card_image";

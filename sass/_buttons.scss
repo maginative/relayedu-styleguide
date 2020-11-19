@@ -1,133 +1,35 @@
-.btn--red{
-  background: $red;
-  color: $white !important;
-  font-weight: 400;
-  display: inline-block;
-  padding: 5px 10px;
-  text-decoration: none;
-  text-transform: lowercase;
-  font-family: $t-font-stack;
-  font-size: 1rem;
-  transition: all ease-in 300ms;
-  border: 0;
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-.btn--transparent__outline {
-  background-color: transparent;
-  border-radius: 3px;
-  color: $white;
-  font-size: 14px;
-  height: 45px;
-  max-width: 225px;
-  width: 140px;
-  border: 1px solid $white !important;
-  &:hover {
-    background-color: #ffffff;
-  }
-}
-.btn--transparent {
-  background-color: transparent;
-  color: $white;
-  border: 1px solid $white;
-  flex: 0 0 180px;
-  height: 48px;
-  box-sizing: border-box;
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: .9em;
-  border-radius: 3px;
-  cursor: pointer;
-  &:hover {
-    background-color: #ffffff;
-    color: $black;
-  }
-}
-.btn--blue {
-  background-color: $blue--persian;
-  color: $white;
+.btn {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: 2px solid;
+  font-family: Proxima Nova;
+  font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  border-radius: 3px;
-  height:45px;
-  margin-right: 10px;
-  cursor: pointer;
-  padding-left: 30px;
-  padding-right: 30px;
-  &:hover {
-    background-color: #004eb0;
-  }
-  @media only screen and (max-width: 600px) {
-    margin-top: 10px;
-    text-align: center;
-  }
-}
-.btn--blue__outline {
-  background-color: $white;
-  border-radius: 3px;
-  color: $blue--persian;
   font-size: 14px;
-  height: 45px;
-  max-width: 225px;
-  width: 140px;
-  border: 1px solid $blue--persian;
-  &:hover {
-    background-color: #e6e6e6;
+  line-height: 14px;
+  background: white;
+
+  &--primary {
+    border: 2px solid $crimson;
+    background: $white;
+    color: $crimson;
+
+    &:hover {
+      background: $crimson;
+      color: $white;
+    }
+  }
+
+  &--secondary {
+    border: 2px solid $orange;
+    background: $white;
+    color: $orange;
+
+    &:hover {
+      background: $orange;
+      color: $white;
+    }
   }
 }
 
-.hero #singlePriceTwoButtons {
-  margin-bottom: 10px;
-  font-weight: bold !important;
-  width: 225px !important;
-}
-.hero__button--persian {
-  color: $white !important;
-  background-color: $blue--persian !important;
-}
-.hero__button--orange {
-  color: $black !important;
-  background-color: $orange;
-  &:hover {
-    background-color: #d8a400;
-  }
-}
-.hero-button-wrapper {
-  font-size: 14px;
-  margin-right:10px;
-  display: flex;
-  width: 100%;
-  @media only screen and (max-width: 600px) {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-.internet-hero {
-  min-width:200px;
-}
-.c-wifi-cta button {
-  width: 239px;
-}
-.hero__button {
-  :first-of-type {
-    margin-right: 10px;
-  }
-  font-size: 14px;
-  font-weight: 600;
-  max-width: 225px;
-  height: 48px;
-  margin-right: 10px;
-  cursor: pointer;
-  border-radius: 3px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 0 30px;
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 12px;
-  }
-}
+

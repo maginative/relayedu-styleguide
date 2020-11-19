@@ -2,39 +2,12 @@ $p-font-stack: ars-maquette-web, sans-serif;
 $s-font-stack: Conduit Light, sans-serif;
 $t-font-stack: nunito sans,sans-serif;
 $black: #000000;
-$grey--dark: #58595b;
-$grey--light: #e5e5ea;
+$fog: #F7F7F7;
 $white: #ffffff;
-$red: #c62328;
-$guava: #f26529;
-$orange: #ffc40c;
-$bumblebee: #fff215;
-$blue--deepSky: #10ace3;
-$blue--persian: #0065e3;
-
-#RedBar {
-  background: #c62328;
-  color: white;
-  text-align: center;
-  .sfContentBlock {
-    padding: 15px;
-    a {
-      color: white;
-    }
-  }
-}
-#BlueBar {
-  .notification#StickyBar {
-    background-color: #1BAAE4;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 100;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    z-index: 11 !important;
-    width: 100%;
-  }
-}
-
-
+$crimson: #B30838;
+$imperial-red: #E63946;
+$orange: #FFAC5F;
+$sea-foam: #A8DADC;
+$sky-blue: #79B9ED;
+$pacific: #2C49A4;
+$prussian: #1D3557;
