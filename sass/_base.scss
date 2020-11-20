@@ -70,4 +70,70 @@ footer {
 p {
   line-height: 34px;
   letter-spacing: 0.315px;
+  font-size: 1.3em;
+  color:  black;
+}
+
+ul {
+  li {
+    font-size: 21px;
+    line-height: 38px;
+    letter-spacing: 0.315px;
+    color: black;
+    &::before {
+
+      content: "\2022";
+      color: $crimson;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: 1em;
+    }
+  }
+}
+
+a {
+  color: $crimson;
+  font-size: 1.3em;
+  line-height: 34px;
+  font-family: $p-font-stack;
+  text-decoration: none;
+  position: relative;
+  padding-right: 20px;
+
+  &:hover {
+    text-decoration: underline;
+    color: $crimson;
+  }
+
+  &.bigger {
+    text-transform: uppercase;
+  }
+
+  &:after {
+    content: '';
+    background: url("../images/icons/pointer-right.svg");
+    width: 10px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    background-repeat: no-repeat;
+  }
+}
+
+.container {
+  @include make-container();
+  @include make-container-max-widths();
+}
+
+.container-fluid {
+  @include make-container();
+}
+
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
 }

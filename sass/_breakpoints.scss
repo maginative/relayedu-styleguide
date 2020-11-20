@@ -3,13 +3,24 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // A map of breakpoints.
-$breakpoints: (
-        xs: 576px,
-        sm: 768px,
-        md: 992px,
-        lg: 1200px
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
 );
 
+$breakpoints: $grid-breakpoints;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+);
+
+$grid-gutter-width: 60px !default;
 
 //
 //  RESPOND ABOVE
@@ -99,6 +110,22 @@ $breakpoints: (
 
       // Log a warning.
       @warn 'Your upper breakpoint was invalid: #{$upper}.';
+    }
+  }
+}
+
+@mixin make-container() {
+  width: 100%;
+  padding-right: ($grid-gutter-width / 2);
+  padding-left: ($grid-gutter-width / 2);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
+  @each $breakpoint, $container-max-width in $max-widths {
+    @include respond-above($breakpoint) {
+      max-width: $container-max-width;
     }
   }
 }

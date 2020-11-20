@@ -60,6 +60,13 @@ body {
   padding-right: 1rem;
 }
 
+.sg-sidebar a::after {
+  content: "";
+  background: none;
+  width: initial;
+  height: initial;
+}
+
 .js .sg-sidebar {
   opacity: 0;
   position: absolute;
@@ -240,6 +247,19 @@ body {
 
 .sg-nav-group li {
   margin-bottom: .5em;
+}
+
+.sg-nav-group li {
+  font-size: initial;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: white;
+}
+
+.sg-nav-group li::before {
+  content: "";
+  width: inherit;
+  margin-left: inherit;
 }
 
 .sg-nav-group a,
