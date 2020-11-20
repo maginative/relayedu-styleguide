@@ -11,10 +11,6 @@
   src: url(../fonts/Proxima_Nova/Proxima_Nova_Bold.otf); }
 
 @font-face {
-  font-family: Proxima Nova Bold;
-  src: url(../fonts/Proxima_Nova/Proxima_Nova_Bold.otf); }
-
-@font-face {
   font-family: Proxima Nova Regular;
   src: url(../fonts/Proxima_Nova/Proxima_Nova_Regular.otf); }
 
@@ -1166,7 +1162,7 @@ a .mobile-menu-link {
     bottom: 14%;
     right: 0px;
     z-index: 3;
-    padding: 20px; } }
+    padding: 40px 20px; } }
 
 .card-slider .card-slide {
   position: relative; }
@@ -1192,10 +1188,13 @@ a .mobile-menu-link {
     @media (min-width: 992px) {
       .card-slider--image-title {
         bottom: 20px;
-        left: 20px; } }
+        left: 30px; } }
     .card-slider--image-title h4 {
       font-size: 1.8em;
       color: #ffffff; }
+      @media (max-width: 767px) {
+        .card-slider--image-title h4 {
+          font-size: 1.8em; } }
   .card-slider--image-square {
     width: 60px;
     height: 60px;

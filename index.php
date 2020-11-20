@@ -141,16 +141,16 @@
             <h2 id="sg-fontStacks" class="sg-h2">Font Stacks</h2>
             <dl class="sg-font-list">
               <dt>Primary Font:</dt>
-              <dd style='font-family: proxima-nova;'>Proxima Nova</dd>
+              <dd style='font-family: "Proxima Nova Regular";'>Proxima Nova</dd>
 
               <dt>Primary Font Bold:</dt>
-              <dd style='font-family: proxima-nova; font-weight: 700;'>Proxima Nova</dd>
+              <dd style='font-family: "Proxima Nova Bold"; font-weight: 700;'>Proxima Nova</dd>
 
               <dt>Secondary Font:</dt>
-              <dd style='font-family: chronicle-display;'>Chronicle Display</dd>
+              <dd style='font-family: "Chronicle Display Ligth";'>Chronicle Display</dd>
 
               <dt>Secondary Font Bold:</dt>
-              <dd style='font-family: chronicle-display; font-weight: 700;'>Chronicle Display</dd>
+              <dd style='font-family: "Chronicle Display Semibold"; font-weight: 700;'>Chronicle Display</dd>
             </dl>
             <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
           </div><!--/.sg-font-stacks-->

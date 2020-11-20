@@ -60,6 +60,13 @@ body {
   padding-right: 1rem;
 }
 
+.sg-sidebar a::after {
+  content: "";
+  background: none;
+  width: initial;
+  height: initial;
+}
+
 .js .sg-sidebar {
   opacity: 0;
   position: absolute;
