@@ -1,0 +1,65 @@
+.accordion {
+
+  &-item {
+    background: $fog;
+    margin-top: 1rem;
+    padding: 16px 16px;
+    position: relative;
+    text-align: left;
+
+    &.active {
+
+      .pointer {
+        background: url('/images/icons/pointer-up.svg') no-repeat center center;
+      }
+
+      .accordion-body {
+        max-height: 200vh;
+      }
+
+
+    }
+  }
+
+  &-heading {
+    cursor: pointer;
+    padding-right: 64px;
+
+    h6 {
+      margin: initial;
+      color: $pacific;
+      font-size: 21px;
+      font-family: $p-font-stack;
+    }
+
+    .pointer {
+      width: 15px;
+      height: 45px;
+      background: url('/images/icons/pointer-down.svg') no-repeat center center;
+      display: block;
+      float: right;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+    }
+
+  }
+
+  &-body {
+
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s linear all;
+
+    &:before {
+      content: "";
+      width: 100px;
+      height: 3px;
+      background: $orange;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+  }
+}

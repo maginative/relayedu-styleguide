@@ -242,6 +242,19 @@ body {
   margin-bottom: .5em;
 }
 
+.sg-nav-group li {
+  font-size: initial;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: white;
+}
+
+.sg-nav-group li::before {
+  content: "";
+  width: inherit;
+  margin-left: inherit;
+}
+
 .sg-nav-group a,
 .sg-nav-group a:visited {
   border-left: 2px solid transparent;

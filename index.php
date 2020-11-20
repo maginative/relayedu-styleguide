@@ -21,9 +21,8 @@
   <link rel="stylesheet" href="vendor/prism/prism.css">
 
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+
+
 
 
 </head>
@@ -168,7 +167,9 @@
     </div><!--/.sg-main-->
   </div><!--/.sg-wrapper-->
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
   <!--[if gt IE 8]><!--><script src="vendor/prism/prism.js"></script><!--<![endif]-->
   <script src="js/sg-scripts.js"></script>
