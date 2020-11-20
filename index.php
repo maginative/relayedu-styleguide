@@ -21,9 +21,8 @@
   <link rel="stylesheet" href="vendor/prism/prism.css">
 
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+
+
 
 
 </head>
@@ -142,16 +141,16 @@
             <h2 id="sg-fontStacks" class="sg-h2">Font Stacks</h2>
             <dl class="sg-font-list">
               <dt>Primary Font:</dt>
-              <dd style='font-family: proxima-nova;'>Proxima Nova</dd>
+              <dd style='font-family: "Proxima Nova Regular";'>Proxima Nova</dd>
 
               <dt>Primary Font Bold:</dt>
-              <dd style='font-family: proxima-nova; font-weight: 700;'>Proxima Nova</dd>
+              <dd style='font-family: "Proxima Nova Bold"; font-weight: 700;'>Proxima Nova</dd>
 
               <dt>Secondary Font:</dt>
-              <dd style='font-family: chronicle-display;'>Chronicle Display</dd>
+              <dd style='font-family: "Chronicle Display Ligth";'>Chronicle Display</dd>
 
               <dt>Secondary Font Bold:</dt>
-              <dd style='font-family: chronicle-display; font-weight: 700;'>Chronicle Display</dd>
+              <dd style='font-family: "Chronicle Display Semibold"; font-weight: 700;'>Chronicle Display</dd>
             </dl>
             <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
           </div><!--/.sg-font-stacks-->
@@ -168,7 +167,9 @@
     </div><!--/.sg-main-->
   </div><!--/.sg-wrapper-->
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
   <!--[if gt IE 8]><!--><script src="vendor/prism/prism.js"></script><!--<![endif]-->
   <script src="js/sg-scripts.js"></script>

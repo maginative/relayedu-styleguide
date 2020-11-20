@@ -1,0 +1,31 @@
+.block-two {
+
+  &--column {
+    flex: 1 0 100%;
+
+    @include respond-above(lg) {
+      flex: 1 0 50%;
+    }
+  }
+
+  .col-1 {
+    margin-bottom: 40px;
+    @include respond-above(lg) {
+      margin-bottom: inherit;
+      padding-right: 10px;
+    }
+  }
+
+  .col-2 {
+    @include respond-above(lg) {
+      padding-left: 10px;
+    }
+  }
+
+  img {
+    width: 100%;
+    @include respond-above(lg) {
+      width: initial;
+    }
+  }
+}
