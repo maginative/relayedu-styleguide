@@ -25,6 +25,26 @@
       cursor: pointer;
     }
   }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 0px;
+
+    .slick-active button:before {
+      color: $white;
+    }
+
+    li {
+      margin: 0px;
+      height: 30px;
+    }
+
+    li button:before {
+      color: $white;
+      font-size: 8px;
+    }
+  }
+
 }
 
 
@@ -151,5 +171,4 @@
       color: $white;
     }
   }
-
 }
